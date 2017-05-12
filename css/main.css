@@ -96,11 +96,196 @@ textarea {
    ========================================================================== */
 
   /*mathieu*/
-  .maincontainer1 img {
-    height: 100px;
-    width: 100Px;
+
+  /*top agenda */
+  .nomobile {
+    display: none;
   }
 
+  .yesmobile {
+    display: block;
+  }
+
+  .topagenda {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .topagenda p, .maincontainer1 p {
+    margin: 0;
+  }
+
+  select {
+    border: 5px solid black;
+    padding: 5px;
+  }
+
+  .maincontainer1 img {
+    height: 276px;
+    width: 100%;
+  }
+
+  .texteagenda {
+    width: 90%;
+    margin: auto;
+  }
+
+  .maincontainer1 {
+    font-size: 15px;
+  }
+
+  figure {
+    width: 100%;
+    margin: 0;
+  }
+
+  .texteagenda a {
+    border: 3px solid black;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+
+  }
+
+  .texteagenda a:hover {
+    color: #D8383F;
+    border: 3px solid #D8383F;
+    transition: 0.3s;
+
+  }
+
+  .p1 {
+    padding-bottom: 50px;
+  }
+
+  .p2, .p1 {
+    font-weight: bold;
+  }
+
+  .p3, .texteagenda span {
+    color: #d3336c;
+  }
+
+  .ptop {
+    padding-top: 50px;
+  }
+
+  .pbot {
+    padding-bottom: 50px;
+  }
+
+  .imgagenda {
+    padding-top: 50px;
+  }
+
+  a .flaticon-uniE940 {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  @media (min-width:1280px) {
+
+    .nodesktop {
+      display: none;
+    }
+
+    .yesdesktop {
+      display: block;
+    }
+
+    .maincontainer1 img {
+      width: 185px;
+      height: 274px;
+    }
+    .art1agenda {
+      width: 1150px;
+      display: flex;
+
+    }
+
+    figure {
+      width: 25%;
+    }
+
+
+    .ligne {
+      width: 37px;
+      height: 37px;
+      border-top: solid 16px;
+      border-right: solid 16px;
+      margin-left: 863Px;
+      color: #d3336c;
+    }
+      .ligne2 {
+        color: #935297;
+        width: 37px;
+        height: 37px;
+        border-top: solid 16px;
+        border-right: solid 16px;
+        margin-left: 863Px;
+      }
+
+      .texteagenda2 {
+        border-top: #935297 solid 1px;
+        margin-bottom: 100px;
+      }
+
+
+
+    .p4 {
+      padding-top: 20px;
+    }
+
+    .texteagenda {
+        border-top: #d3336c solid 1px;
+        margin-bottom: 100px;
+
+
+    }
+
+    .maincontainer1 {
+      width: 90%;
+      margin: auto;
+    }
+
+    .texte1 {
+        width: 600px;
+    }
+
+    .texteagenda2 span {
+      color: #935297;
+    }
+
+    .ptop {
+      padding: 0;
+    }
+
+    .pbot {
+      padding-bottom: 15px;
+    }
+
+    .taille1 {
+      font-size: 30px;
+    }
+
+    .p1 {
+
+      padding-bottom: 15px;
+    }
+
+    span {
+      font-weight: normal;
+    }
+
+    strong {
+      font-size: 18px;
+    }
+    .imgagenda {
+      padding: 0;
+    }
+  }
   /*end of mathieu */
 
   /*sylvain */
