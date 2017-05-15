@@ -95,6 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
   /*mathieu*/
 
   /*top agenda */
@@ -104,6 +105,56 @@ textarea {
 
   .yesmobile {
     display: block;
+  }
+
+  /*header */
+
+  header nav {
+    height: 50px;
+    background-color: #1D1D1E;
+
+  }
+
+
+  .head3 {
+    width: 27px;
+    height: 50px;
+    padding-bottom: 20px;
+  }
+
+  header a {
+    color: white;
+  }
+
+  .nav1 {
+    color: white;
+  }
+
+  .iconeagenda, .iconeagenda2 {
+    font-size: 23px;
+    color: white;
+    position: relative;
+    left: 60%;
+  }
+
+  .iconeagenda3 {
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  .center1 a {
+    border-bottom: 1px solid white;
+  }
+
+  .center1 a:hover {
+    color: #D8383F;
+  }
+
+  .fond1 {
+    background-color: #1D1D1E;
+    border: 7px solid white;
+    width: 100%;
   }
 
   .topagenda {
@@ -185,7 +236,11 @@ textarea {
     margin-left: 20px;
   }
 
-  @media (min-width:1280px) {
+  .topagenda {
+    margin-top: 50px;
+  }
+
+  @media (min-width:1080px) {
 
     .nodesktop {
       display: none;
@@ -193,6 +248,65 @@ textarea {
 
     .yesdesktop {
       display: block;
+    }
+
+    /*header */
+
+    .head2 {
+      width: 50px;
+    }
+
+    header nav {
+      line-height: 90px;
+      height: 90px;
+    }
+
+    .fond1 {
+      background-color: #1D1D1E;
+      border: 0;
+
+    }
+
+    .navbar-toggleable-md .navbar-collapse {
+      height: 90px;
+    }
+
+    .center1 {
+      margin: 0 auto;
+      width: 1280px;
+
+    }
+
+    .center1 a {
+      border-bottom:0;
+    }
+
+    .iconeagenda5 {
+      font-size: 75px;
+    }
+
+     header input{
+       background-color: #1D1D1E;
+ color: #FFF;
+ width: 161px;
+ height: 35px;
+ border: 4px solid #FFF;
+ font-family: "open_sansregular";
+ position: relative;
+ padding-right: 30px;
+ padding-left: 5px;
+    }
+
+    header a:hover {
+      color: #D8383F
+    }
+
+    header input:hover {
+      border: 4px solid  #D8383F;
+    }
+
+    .navblack {
+      background-color: black;
     }
 
     .maincontainer1 img {
@@ -203,6 +317,15 @@ textarea {
       width: 1150px;
       display: flex;
 
+    }
+
+    .topagenda select {
+      position: relative;
+      left: 27%;
+    }
+
+    .topagenda {
+      margin-top: 100px;
     }
 
     figure {
@@ -284,6 +407,16 @@ textarea {
     }
     .imgagenda {
       padding: 0;
+    }
+
+    .texte1 a {
+      padding: 5px;
+      position: relative;
+      left: 100%;
+    }
+
+    .topagenda p {
+      font-size: 24px;
     }
   }
   /*end of mathieu */
