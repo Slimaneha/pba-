@@ -106,6 +106,15 @@ textarea {
     display: block;
   }
 
+  header nav {
+    height: 90px;
+    background-color: #1D1D1E;
+  }
+
+  header a {
+    color: white;
+  }
+
   .topagenda {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -185,6 +194,7 @@ textarea {
     margin-left: 20px;
   }
 
+
   @media (min-width:1280px) {
 
     .nodesktop {
@@ -203,6 +213,11 @@ textarea {
       width: 1150px;
       display: flex;
 
+    }
+
+    .topagenda select {
+      position: relative;
+      left: 27%;
     }
 
     figure {
@@ -284,6 +299,16 @@ textarea {
     }
     .imgagenda {
       padding: 0;
+    }
+
+    .texte1 a {
+      padding: 5px;
+      position: relative;
+      left: 100%;
+    }
+
+    .topagenda p {
+      font-size: 24px;
     }
   }
   /*end of mathieu */
