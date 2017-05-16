@@ -291,14 +291,14 @@ textarea {
 
      header input{
        background-color: #1D1D1E;
- color: #FFF;
- width: 161px;
- height: 35px;
- border: 4px solid #FFF;
- font-family: "open_sansregular";
- position: relative;
- padding-right: 30px;
- padding-left: 5px;
+       color: #FFF;
+       width: 161px;
+       height: 35px;
+       border: 4px solid #FFF;
+       font-family: "open_sansregular";
+       position: relative;
+       padding-right: 30px;
+       padding-left: 5px;
     }
 
     header a:hover {
@@ -449,43 +449,180 @@ textarea {
 
   /*sylvain */
 
+  .mainVisite {
+    background-color: #1d1d1e;
+  }
+
   .youare {
-    /*display: flex;*/
-    /*justify-content: space-around;*/
+    margin-bottom: 5%;
   }
 
-  .youare a {
-    /*width: 100%;*/
+  .mainVisite a {
+    text-decoration: none;
+    color: #1D1D1E;
+    transition: .4s;
   }
 
-  .youare article {
-    height: 512px;
+  .mainVisite a:hover {
+    transition: .4s;
+    color: #D8383F;
   }
 
-  .individuel {
-    background: url(../img/Individuel.jpg) no-repeat;
+  .mainVisite article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .youare .whitebox, .parcoursTheme .whitebox {
+    margin-bottom: 45px;
+    background-color: white;
+    width: 100%;
+    height: 62.5px;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    opacity: .9;
+  }
+
+  .youare .whitebox * {
+    margin: 0 1%;
+    padding: 0;
+    line-height: 1;
+    align-self: center;
+  }
+
+  .parcours {
+    text-align: center;
+    position: relative;
+  }
+
+  .parcours *{
+    color: white;
+  }
+
+  .parcoursTheme article {
+      height: 100vw;
+    }
+
+  .parcoursTheme .whitebox {
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+  }
+
+
+  .grandBleu {
+    background: url(../img/Le-grand-bleu.jpg) no-repeat;
     background-size: 100% 100%;
   }
 
-  .groupe {
-    background: url(../img/Groupe.jpg) no-repeat;
+  .love {
+    background: url(../img/Love-etc.jpg) no-repeat;
     background-size: 100% 100%;
   }
 
-  .famille {
-    background: url(../img/Famille.jpg) no-repeat;
+  .aTable {
+    background: url(../img/A-Table-!.jpg) no-repeat;
     background-size: 100% 100%;
   }
 
-  .etudiant {
-    background: url(../img/Etudiant.jpg) no-repeat;
+  .angesDemons {
+    background: url(../img/Anges-et-Demons.jpg) no-repeat;
     background-size: 100% 100%;
   }
 
-  .enseignant {
-    background: url(../img/Enseignant.jpg) no-repeat;
+  .histoiresBetes {
+    background: url(../img/Histoires-de-betes.jpg) no-repeat;
     background-size: 100% 100%;
   }
+
+  .chiffres {
+    background: url(../img/Des-chiffres-et-des-lettres.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .blondesBrunes {
+    background: url(../img/Blondes-et-brunes.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .miniMaxi {
+    background: url(../img/Mini-Maxi.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+
+  @media (min-width: 640px) {
+    .youare .whitebox, .parcoursTheme .whitebox {
+      height: 139px;
+    }
+  }
+
+  @media (min-width:1200px) {
+
+    .youare article {
+      height: 512px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .mainVisite .whitebox {
+      width: 80%;
+      align-self: center;
+      flex-direction: column;
+      padding: auto 10px;
+    }
+
+    .youare .whitebox * {
+      align-self: left;
+      margin-left: 10%;
+    }
+
+
+    .individuel {
+      background: url(../img/Individuel.jpg) no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .groupe {
+      background: url(../img/Groupe.jpg) no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .famille {
+      background: url(../img/Famille.jpg) no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .etudiant {
+      background: url(../img/Etudiant.jpg) no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .enseignant {
+      background: url(../img/Enseignant.jpg) no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .parcours .pba {
+      position: absolute;
+      left: 30%;
+      bottom: 25%;
+      font-size: 3em;
+    }
+
+    .parcoursTheme article {
+      /*height: 500px;*/
+      height: 38vw;
+    }
+
+
+
+
+  }
+
 
   /*end of sylvain */
 
