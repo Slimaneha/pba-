@@ -553,6 +553,37 @@ textarea {
     background-size: 100% 100%;
   }
 
+  footer {
+    background-color: #1d1d1e;
+  }
+
+  .menuFooter {
+
+  }
+
+  .menuFooter ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  .menuFooter a {
+    color: white;
+    transition: .4s;
+  }
+
+  .menuFooter a:hover {
+    color: #D8383f;
+    transition: .4s;
+    text-decoration: none;
+  }
+
+  .mecene {
+    display: none
+  }
+
 
   @media (min-width: 640px) {
     .youare .whitebox, .parcoursTheme .whitebox {
@@ -614,8 +645,25 @@ textarea {
     }
 
     .parcoursTheme article {
-      /*height: 500px;*/
       height: 38vw;
+    }
+
+    .menuFooter ol {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .mecene {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .mecene figure {
+      width: 21%;
+    }
+
+    .mecene img {
+      width: 100%;
     }
 
 
@@ -650,7 +698,7 @@ textarea {
 .img-1{
   background-image: url(../img/Le-Concert-dans-l-oeuf.jpg);
 
-  
+
 
 }
 .img-2{
