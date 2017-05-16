@@ -687,6 +687,9 @@ textarea {
   }
 /*============== Img Index.html par 3 colone */
 
+.video{
+  background-image: url(../img/video.mp4)
+}
 
 .card-block{
   flex-direction:column-reverse;

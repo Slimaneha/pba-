@@ -6,7 +6,7 @@
     <name> -- <role> -- <twitter>
     Mathieu Pluquet -- Dev -- @Mathieu_Pluquet
     Sylvain Baillot -- Dev -- s.baillot59@gmail.com
-    Slimane Hassani -- Dev --
+    Slimane Hassani -- Dev -- @slimaneha
 
 # THANKS
 
