@@ -502,6 +502,17 @@ textarea {
   }
 /*============== Img Index.html par 3 colone */
 
+.lien{
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.lien a:hover{
+  color: #FA5858;
+}
+
 .video{
   background-image: url(../img/video.mp4)
 }
