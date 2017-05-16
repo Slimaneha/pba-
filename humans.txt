@@ -4,7 +4,10 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
-
+    Mathieu Pluquet -- Dev -- @Mathieu_Pluquet
+    Sylvain Baillot -- Dev -- 
+    Slimane Hassani -- Dev --
+    
 # THANKS
 
     <name>
