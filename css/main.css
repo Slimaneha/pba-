@@ -601,6 +601,46 @@ textarea {
   /*end of sylvain */
 
   /*slimane */
+  #myCarousel{
+    margin: 0;
+  }
+
+  .black{
+    height: 100px;
+    background-color:#222;
+    color: white;
+    text-align:center;
+  }
+/*============== Img Index.html par 3 colone */
+
+
+.card-block{
+  flex-direction:column-reverse;
+}
+  .col{
+    height: 800px;
+  }
+
+.img-1{
+  background-image: url(../img/Le-Concert-dans-l-oeuf.jpg);
+
+  
+
+}
+.img-2{
+   background-image: url(../img/Etude-pour-la-Madone-d-Albe.jpg);
+
+
+}
+.img-3{
+   background-image: url(../img/Les-Vieilles-Le-Temps.jpg);
+
+
+}
+.img-4 {
+   background-image: url(../img/Le-festin-d-Herode.jpg);
+
+}
 
   /*end of slimane*/
 
