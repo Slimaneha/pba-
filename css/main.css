@@ -167,7 +167,7 @@ textarea {
     margin: 0;
   }
 
-  select {
+  .maincontainer1 select, .topagenda select {
     border: 5px solid black;
     padding: 5px;
   }
@@ -237,6 +237,10 @@ textarea {
 
   .topagenda {
     margin-top: 50px;
+  }
+
+  .iconeagenda:hover , .iconeagenda2:hover {
+    color: #D8383F;
   }
 
   @media (min-width:1080px) {
@@ -320,14 +324,14 @@ textarea {
 
     .topagenda select {
       position: relative;
-      left: 73%;
+      left: 70%;
     }
 
     .topagenda {
       margin-top: 100px;
     }
 
-    figure {
+    .maincontainer1 figure {
       width: 25%;
     }
 
@@ -418,6 +422,27 @@ textarea {
       font-size: 24px;
     }
 
+    .pagination  {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+      font-size: 19px;
+    }
+    .pagination li {
+      margin-left: 11px;
+    }
+    .pagination nav{
+      display: flex;
+    }
+
+    .page2agenda a:hover, .page3agenda a:hover {
+      color: #D8383F;
+    }
+
+    .page2agenda a, .page3agenda a {
+      color: black;
+      text-decoration: none;
+    }
   }
   /*end of mathieu */
 
